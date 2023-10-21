@@ -4,10 +4,8 @@ import { CharacterCollection } from './characterCollection';
 import { LinkedList } from './LinkedList';
 
 const numberCollection = new NumberCollection([10, -5, 0, -12]);
-const sorter = new Sorter(numberCollection);
-sorter.sort();
+numberCollection.sort();
 console.log(numberCollection.data);
-
 // const characterCollection = new CharacterCollection('Xaayb');
 // const sorterch = new Sorter(characterCollection);
 // sorterch.sort();
